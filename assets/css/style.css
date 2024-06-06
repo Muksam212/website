@@ -593,7 +593,6 @@ main {
   box-shadow: var(--shadow-1);
 }
 
-.testimonials-item-title { margin-bottom: 7px; }
 
 .testimonials-text {
   color: var(--light-gray);
