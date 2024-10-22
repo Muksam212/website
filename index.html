@@ -148,10 +148,25 @@
       <!--
         - #NAVBAR
     -->
+    <nav class="navbar">
 
+      <ul class="navbar-list">
 
+        <li class="navbar-item">
+          <button class="navbar-link  active" data-nav-link>About</button>
+        </li>
 
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Resume</button>
+        </li>
 
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Contact</button>
+        </li>
+
+      </ul>
+
+    </nav>
 
       <!--
         - #ABOUT
@@ -366,6 +381,112 @@ Muksamhang is a     fantastic professional whose inspiring approach and relentle
         - #RESUME
       -->
 
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelors of Science (Hons) in Computer Science</h4>
+              <span>Sep 2018 — Jun 2021</span>
+              <p class="timeline-text">
+                University of Wolverhampton<br>
+                Teaching Institution: Herald College, Kathmandu, Nepal.<br>
+                Studied Data Structures, Database Systems, Machine Learning, and Computational Mathematics.<br>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experiences</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graduated Teaching Assistant</h4>
+              <span>Aug 2023 — Aug 2024</span>
+              <p class="timeline-text">
+                Herald College Kathmandu, Nepal<br>
+                Specializes in the module “Introductory Programming and Problem Solving”.<br>
+                Help develop, update and gather teaching materials to support the development of the course curriculum.<br>
+                Guides students in programming languages, laying a strong foundation for their technical journey.<br>
+                Provide in-person or email support to assist with student enquiries during the exam period.<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Associate Software Engineer</h4>
+              <span>Aug 2022 - March 2023</span>
+              <p class="timeline-text">
+                Aspark System, Nepal<br>
+                Scratch Implementations of Apical ,M&M Consultancy and HD-Group simple portfolio website.<br>
+                Website include Authentication, Creating CRUD, built CRM Customer Relationship Management.<br>
+                Modifying Tyson Project(Real-Estate Agency), Builders-mart(Similar to E-commerce Website).<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Python Django Developer</h4>
+              <span>June 2022 — July 2022</span>
+              <p class="timeline-text">
+                Prixa Technology, Nepal<br>
+                Modifying different news-sites like (Thaha-Khabar, Corporate Nepal, ekajag).<br>
+                Django Rest-Framework.<br>
+                Bulk Create using csv file and random values.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Flask Developer</h4>
+              <span>Aug 2021 — Feb 2022</span>
+              <p class="timeline-text">
+                Beta Analytics, Kathmandu, Nepal<br>
+                Specializes in web development with Python Flask framework, including API development.<br>
+                Coordinates with team members.<br>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+
+      </article>
+
     
     
 
@@ -392,6 +513,42 @@ Muksamhang is a     fantastic professional whose inspiring approach and relentle
       <!--
         - #CONTACT
       -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d456601.28945361776!2d87.13498469241219!3d26.61011311123465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef6378445acc51%3A0x6ef846df97fb7d2c!2sMorang!5e0!3m2!1sen!2snp!4v1729611378327!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/mrbzlbgb" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
 
     
 
